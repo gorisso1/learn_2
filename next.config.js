@@ -1,4 +1,3 @@
-
 const baseConfig = {
     distDir: 'build',
     webpack(config, options) {
@@ -15,5 +14,4 @@ const nextConfig = {
     output: 'export',
 };
 
-module.exports = Object.assign({}, baseConfig, nextConfig);
-
+module.exports = { ...baseConfig, ...nextConfig };
