@@ -1,0 +1,104 @@
+@media only screen and (min-width: 1024px) {
+    .sidebar{
+        position: fixed;
+        width: 270px;
+        height: 100%;
+        background-color: #3f3753;
+        left: 0%;
+        top: 0%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    .liner{
+        height: 100%;
+        margin-top: 400px;
+
+
+
+
+    }
+
+    .navigation{
+
+        display: grid;
+
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .item{
+        display: grid;
+        grid-template-columns:30px 50px;
+
+        gap: 25px;
+        align-items: center;
+
+    }
+    .name{
+        text-decoration: none;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+
+        font-weight: bold;
+        line-height: 140%;
+    }
+
+    .input{
+        width: 500px;
+        height: 40px;
+        border-radius: 22px;
+        border: none;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        margin-top: 100px;
+        position: fixed;
+        width: 100%;
+        height: 80px; /* или любая другая высота, которую вы предпочитаете */
+        background-color: #3f3753;
+        left: 0%;
+        bottom: 0%;
+        z-index: 999;
+
+    }
+
+    /* Дополнительные стили для мобильных устройств, если необходимо */
+    .liner {
+        margin-top: 0; /* Изменяем значение, чтобы сместить содержимое, если нужно */
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        color: white;
+        gap: 20px; /* Уменьшаем расстояние между элементами */
+    }
+
+    .item {
+       display: grid;
+        /* Изменяем ширину колонок, если нужно */
+    }
+
+    .input {
+        width: 100%; /* Ширина занимает 100% экрана */
+    }
+    .name{
+        text-decoration: none;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+
+        font-weight: bold;
+        line-height: 140%;
+    }
+}

@@ -1,0 +1,28 @@
+.search{
+    display: grid;
+    grid-template-columns: 40px 460px;
+    align-items:center;
+}
+.SearchSvg{
+    background-color: #fff;
+
+
+    width: 40px;
+    padding: 8px;
+    
+
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+
+}
+
+.input{
+
+    border: none;
+    outline: none;
+    width: 460px;
+    height: 36px;
+
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+}

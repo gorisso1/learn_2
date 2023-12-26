@@ -1,0 +1,42 @@
+.wrapper{
+
+
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    justify-content: center;
+
+    gap: 50px;
+
+
+}
+
+
+.text{
+
+
+
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 15px;
+
+
+
+}
+
+
+.translation{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+
+.line {
+    position: relative;
+}
+

@@ -1,0 +1,19 @@
+
+.container{
+    position: fixed;
+    right: 10%;
+
+
+}
+
+.avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.block{
+
+}
