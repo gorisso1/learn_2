@@ -92,6 +92,7 @@
         color: white;
         font-weight: bold;
         border-radius: 10px;
+        max-width: 200px;
         text-align: center;
 
     }
