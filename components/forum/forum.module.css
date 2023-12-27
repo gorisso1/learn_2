@@ -116,7 +116,7 @@
 
     .block{
         display: grid;
-        grid-template-columns: 50px 400px;
+        grid-template-columns: 50px 300px;
         align-items: center;
         color: black;
         word-wrap: break-word;
@@ -131,7 +131,7 @@
     .text_comment{
         margin-top: 40px;
         margin-bottom: 40px;
-        width: 400px;
+        width: 300px;
         min-height: 50px;
         padding: 10px;
         background-color: white;
