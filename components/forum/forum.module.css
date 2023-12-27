@@ -77,7 +77,7 @@
 
     .container_create{
         display: grid;
-        grid-template-columns: 1fr 100px;
+        grid-template-columns: 1fr;
         gap: 50px;
         margin-bottom: 100px;
         padding: 20px;
