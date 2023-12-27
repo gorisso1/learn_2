@@ -19,7 +19,7 @@ const Sidebar = () =>{
 
 
 
-                    <div className={styles.name}>Главная</div>
+                    <Link href={"/"} className={styles.name}>Главная</Link>
 
                 </div>
 

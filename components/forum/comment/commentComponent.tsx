@@ -37,7 +37,7 @@ const CommentComponent: React.FC<CommentComponentProps>  = ({id}) =>{
     }, [comment]);
     return(
         <div>
-            <div>{selectedFormData?.text}</div>
+            <div className={styles.text_comment}>{selectedFormData?.text}</div>
 
             <Create_comment id={id} setCommentData={setComment} CommentData={comment}/>
 

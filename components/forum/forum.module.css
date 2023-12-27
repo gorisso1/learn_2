@@ -1,52 +1,143 @@
-.container{
-    display: grid;
-    justify-content: center;
-    gap: 100px;
+@media only screen and (min-width: 1024px) {
+    .container{
+        display: grid;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .container_create{
+        display: grid;
+        grid-template-columns: 1fr 100px;
+        gap: 50px;
+
+        margin-bottom: 100px;
+
+
+    }
+
+    .submitForum{
+        background-color: cornflowerblue;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+    .input_forum{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        width: 300px;
+        outline: none;
+
+    }
+
+    .get_forum_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+    }
+
+    .block{
+        display: grid;
+        grid-template-columns: 50px 500px;
+        align-items: center;
+        color: black;
+        word-wrap: break-word;
+
+    }
+
+    .text{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .text_comment{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 400px;
+        min-height: 50px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        word-break: break-word;
+
+    }
+
 }
 
-.container_create{
-    display: grid;
-    grid-template-columns: 1fr 100px;
-    gap: 50px;
+@media only screen and (max-width: 767px) {
+    .container{
+        display: grid;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .container_create{
+        display: grid;
+        grid-template-columns: 1fr 100px;
+        gap: 50px;
+        margin-bottom: 100px;
+        padding: 20px;
 
 
-}
 
-.submitForum{
-    background-color: cornflowerblue;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    text-align: center;
 
-}
-.input_forum{
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-    width: 300px;
-    outline: none;
+    }
 
-}
+    .submitForum{
+        background-color: cornflowerblue;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
 
-.get_forum_container{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
+    }
+    .input_forum{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        width: 300px;
+        outline: none;
 
-}
 
-.block{
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
-    color: black;
+    }
 
-}
+    .get_forum_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
 
-.text{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
+    }
+
+    .block{
+        display: grid;
+        grid-template-columns: 50px 400px;
+        align-items: center;
+        color: black;
+        word-wrap: break-word;
+
+    }
+
+    .text{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .text_comment{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 400px;
+        min-height: 50px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        word-break: break-word;
+
+    }
+
+
 }

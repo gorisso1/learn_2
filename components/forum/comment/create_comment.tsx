@@ -1,5 +1,6 @@
-import styles from "components/forum/forumComponent";
+
 import React, {useState} from "react";
+import styles from  "components/forum/forum.module.css";
 import {CommentComponentProps, CommentDataCreate} from "interface/forum.props";
 import { v4 as uuidv4 } from 'uuid';
 const Create_comment: React.FC<CommentDataCreate> = ({CommentData,setCommentData,id}) =>{
@@ -29,9 +30,9 @@ const Create_comment: React.FC<CommentDataCreate> = ({CommentData,setCommentData
     }
 
     return(
-        <div >
-            <input type="text"  onChange={OnChangeComment}/>
-            <div  onClick={submitComment}>Отправить</div>
+        <div  className={styles.container_create}>
+            <input className={styles.input_forum} placeholder="Напишите свой ответ" type="text"  onChange={OnChangeComment}/>
+            <div className={styles.submitForum} onClick={submitComment}>Отправить</div>
 
 
         </div>
