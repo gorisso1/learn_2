@@ -16,7 +16,8 @@ a{
 input[type="search"] {
     -webkit-appearance: none;
     appearance: none;
-    background: none;
+    background-color: white;
     border: none;
     outline: none;
+    ;
 }
