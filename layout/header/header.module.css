@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1024px) {
     .search{
         display: grid;
-        grid-template-columns: 40px 460px;
+        grid-template-columns: 40px 350px;
         align-items:center;
     }
     .SearchSvg{
@@ -34,7 +34,7 @@
 @media only screen and (max-width: 767px) {
     .search{
         display: grid;
-        grid-template-columns: 40px 400px;
+        grid-template-columns: 40px 300px;
         align-items:center;
     }
     .SearchSvg{
@@ -42,8 +42,7 @@
 
 
         width: 40px;
-        height: 80px;
-
+        padding: 8px;
 
 
         border-top-left-radius: 22px;
@@ -55,8 +54,8 @@
 
         border: none;
         outline: none;
-        width: 400px;
-        height: 80px;
+        width: 350px;
+        height: 36px;
 
         border-bottom-right-radius: 22px;
         border-top-right-radius: 22px;
