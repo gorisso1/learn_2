@@ -5,6 +5,7 @@ import {Word} from "@/api/data/category.data";
 import axios from "axios";
 import SearchModal from "components/modal/search/SearchModal";
 import searchModal from "components/modal/search/SearchModal";
+import {SearchState} from "interface/search.props";
 const Header = () =>{
 
     const [searchResult, setSearchResult] = useState<Word[]>([])
@@ -53,7 +54,7 @@ const Header = () =>{
                 <SearchSvg className={styles.SearchSvg}/>
                 <input type="search" placeholder="Найти перевод..." className={styles.input} onChange={HeaderOnChange}/>
                 {modal && (
-                    <SearchModal word={searchResult} />
+                    <SearchModal word={searchResult} setModal={setModal} />
                 )}
 
             </div>

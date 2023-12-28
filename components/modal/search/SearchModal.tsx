@@ -2,10 +2,21 @@
 import styles from './searchmodal.module.css';
 import {Word} from "@/api/data/category.data";
 import {SearchModalProps} from "interface/search.props";
-const SearchModal: React.FC<SearchModalProps> = ({ word }) => {
+import CloseSvg from  "icons/svg/close.svg";
+import React from "react";
+const SearchModal: React.FC<SearchModalProps> = ({ word, setModal}) => {
     const limitedWords = word.slice(0, 5);
+    const CloseButton = ()=>{
+        setModal(false)
+    }
     return (
+
         <div className={styles.modal}>
+            <div className={styles.iconClose} onClick={CloseButton}>
+                <CloseSvg/>
+
+
+            </div>
             <div className={styles.container}>
                 <div>Названия</div>
                 <div>Перевод</div>
